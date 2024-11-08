@@ -165,3 +165,6 @@ old_code/main_old.ipynb
 old_code/temp_graph_fromCanvas.ipynb
 old_code/temp_graph_mini.ipynb
 old_code/temp_graph.ipynb
+main_langraph.py
+PDF_Processing.py
+.gitignore
