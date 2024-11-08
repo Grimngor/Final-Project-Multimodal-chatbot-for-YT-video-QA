@@ -160,3 +160,8 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+old_code/main_langraph_BU.ipynb
+old_code/main_old.ipynb
+old_code/temp_graph_fromCanvas.ipynb
+old_code/temp_graph_mini.ipynb
+old_code/temp_graph.ipynb
