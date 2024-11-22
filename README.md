@@ -1,6 +1,6 @@
-# Multimodal AI ChatBot for YouTube Video QA
+# AI ChatBot with Adaptive RAG over YouTube/PDF for DnD QA
 
-This is what I developed for the final project of the AI Engineering Bootcamp at Ironhack, where we were tasked to create a chatbot that could answer questions about YouTube videos. The chatbot, focused on Dungeons & Dragons character creation, can answer questions on the topic by extracting information from YouTube videos and PDF documents with the detailed rules for the process.
+This is what I developed for the final project of the AI Engineering Bootcamp at Ironhack, where we were tasked to create a chatbot that could answer questions about YouTube videos. The chatbot focused on Dungeons & Dragons character creation, can answer questions on the topic by extracting information from YouTube videos and PDF documents with detailed rules for the process.
 This README outlines the installation steps, usage instructions, and key concepts.
 
 ## Table of Contents
@@ -17,7 +17,7 @@ This README outlines the installation steps, usage instructions, and key concept
 
 ## Project Overview
 
-This chatbot offers a powerful tool for accessing and querying information from YouTube videos and relevant PDFs. It combines PDF processing with OCR techniques, NLP, RAG (retrieval-augmented generation) and a LangGraph architecture with agents and tools to answer user queries accurately, leveraging the LangChain framework and Pinecone as a vector store. This solution improves content accessibility, supports efficient knowledge retrieval, and can significantly enhance the user experience on creating a DnD character.
+This chatbot offers a powerful tool for accessing and querying information from YouTube videos and relevant PDFs. It combines PDF processing with OCR techniques, NLP, RAG (retrieval-augmented generation), and a LangGraph architecture with agents and tools to answer user queries accurately, leveraging the LangChain framework and Pinecone as a vector store. This solution improves content accessibility, supports efficient knowledge retrieval, and can significantly enhance the user experience of creating a DnD character.
 
 ## Key Features
 
