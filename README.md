@@ -21,16 +21,16 @@ This chatbot offers a powerful tool for accessing and querying information from 
 
 ## Key Features
 
-- **PDF Processing and Metadata Extraction:** Processes D&D Player Handbook PDF and stores relevant sections in a CSV format.
+- **PDF Processing and Metadata Extraction:** Processes D&D Player Handbook PDF and stores relevant sections in a Pandas dataframe saved as a CSV.
 - **Multimodal QA:** Supports questions about both YouTube video content and document-based knowledge.
-- **LangChain-Powered Workflow:** Utilizes LangChain agents and memory for enhanced contextual understanding.
+- **LangChain-Powered Workflow:** Utilizes LangChain agents and conversation memory for enhanced contextual understanding.
 - **Vector Store Integration with Pinecone:** Efficient document and video retrieval using embeddings.
 
 ## Repository Structure
 
 - **PDF_Processing.py**: Processes PDF documents with various OCR techniques, extracts relevant content, and stores it in a CSV file for easy indexing in the vector store.
 - **main_langgraph.py**: Main chatbot script, processing YouTube video transcripts and a CSV file (extracted from PDF) and integrating with the LangChain and Pinecone frameworks for the main QA functionality using LangGraph. It also includes the code for the deployment on Gradio.
-- **combined_docs_final.csv**: CSV file containing extracted content from PDF, enabling efficient retrieval for user queries.
+- **combined_dataframes.csv**: CSV file containing extracted content from PDF, enabling efficient retrieval for user queries.
 
 ---
 
@@ -40,12 +40,12 @@ This chatbot offers a powerful tool for accessing and querying information from 
    ```bash
    git clone https://github.com/Grimngor/Final-Project-Multimodal-chatbot-for-YT-video-QA.git
 
-2. **Install Dependencies: Ensure you have Python 3.8 or later. Install the required libraries using**:
+2. **Install Dependencies: Including Python 3.11 preferably. Install the required libraries using**:
    ```bash
    pip install -r requirements.txt
 
 3. **Set Up Environment Variables**:
-**Set Up Environment Variables**: Create a .env file in the root directory to store your API keys (e.g., OpenAI, Pinecone) as detailed in the Environment Variables section below.
+Create a .env file in the root directory to store your API keys (e.g., OpenAI, Pinecone) as detailed in the Environment Variables section below.
 
 ## Usage
 ### Running the Chatbot
